@@ -75,6 +75,10 @@
             margin: 0 auto;
 
         }
+        .container2{
+            display: flex;
+            justify-content: center;
+        }
 
         p {
             font-size: 15px;
@@ -93,7 +97,7 @@
         }
 
         .article {
-            float: center;
+            
             max-width: 290px;
             background-color: #FFF;
             padding: 20px;
@@ -108,6 +112,13 @@
             padding: 10px;
             text-align: center;
             clear: both;
+            font-size:x-small;
+        }
+
+        #icon{
+            float: right;
+            height: 25px;
+
         }
     </style>
 </head>
@@ -128,10 +139,11 @@
         </div>
 
     </header>
-    <div class="container">
+    <div class="container2">
 
         <article class="article">
-
+            
+            <img src="/assets/img/note.png" alt="icono-note" id="icon">
             <h3>SOBRE MI</h3>
             <hr>
             <p><i>Graduado de Professional Developer, con habilidades tanto en FrontEnd como en BackEnd, con capacidad de
@@ -142,7 +154,7 @@
 
 
     <footer class="footer">
-        <p>todos los derechos reservados &copy; 2024</p>
+        todos los derechos reservados <br> &copy; 2024
     </footer>
 
 </body>
